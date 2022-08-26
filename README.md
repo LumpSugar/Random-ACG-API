@@ -1,72 +1,22 @@
-# Northflank PHP Laravel Example
+# 自判断随机二次元API  
+自判断随机二次元API 根据用户UA请求头出图  
+电脑用户打开出横图二次元壁纸 手机用户打开出现竖图壁纸 图片存储在阿里、微博图床 适合用于博客背景图和个人网站背景图调用  
+演示地址https://api.ghser.com/random  
+站长交流群53733035  
+点击链接加入群聊【站长交流裙】：https://jq.qq.com/?_wv=1027&k=eUMzlDPy  
+我只是添加了index首页以及3k7+图片外链  
+分别是2435张横图、1336张竖图  
+原作者：https://github.com/2374579255/acgAPI
+        
+----------
 
-<a target="_blank" rel="noopener noreferrer" href="https://www.northflank.com">
-    <img alt="Northflank" align="right" src="/media/logo.svg" width="35%" />
-</a>
-
-Deploy this PHP Laravel server easily with [Northflank](https://www.northflank.com):
-
-- Clone this repository
-- Select this repository in Northflank when creating a new service
-- Expose port 80
-- Wait for the app to build and visit the newly assigned URL. That's it!
-
-### Live Demo
-[https://example--php-laravel--examples--nort-kcwl.code.run](https://example--php-laravel--examples--nort-kcwl.code.run)
-
-This project was generated with Laravel Installer 4.0.5 using PHP 7.4.10.
-
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+以上是原作者readme.md
+---
+此图床经过个人修改，将pc端改成个人制作的站点壁纸+其他人站点偷来的图（忘了哪来的了…）
+---
+从编号81（一只索米）开始即为个人制作的图（符合我个人xp）
+---
 
 
-## Learning Laravel
+![yulan](https://user-images.githubusercontent.com/79273007/124930610-0fa00a80-e034-11eb-94b3-32ac6813ad46.png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
