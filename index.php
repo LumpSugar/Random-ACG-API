@@ -15,8 +15,8 @@
 		</div>
 		<div class="container">
 			<div class="well">
-				<p>目前PC端共收录 100+ 张图片 API最后更新时间:2021-07-08</p>
-				<p>其中编号81之后为个人精选制作（符合XP）</p>
+				<p>目前PC端共收录 100+ 张图片 API最后更新时间:2022-12-10</p>
+				<p>基本完成pc端背景个人xp化</p>
 				<p>自判断二次元API基本调用格式：</p>
 				<pre><a href="<?php $_SERVER['HTTP_HOST'] ?>/api.php" target="_blank"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/api.php</a></pre>
 				<p>（横屏）PC端随机二次元API</p>
