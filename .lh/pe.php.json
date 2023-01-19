@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1674145121343,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674145350538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,13 +4,13 @@\n $k = rand(0,count($str));\r\n $sina_img = str_re($str[$k]);\r\n \r\n $size_arr = array('kf', 'mw1024', 'mw690', 'bmiddle', 'small', 'thumb180', 'thumbnail', 'square');\r\n-$size = !empty($_GET['size']) ? $_GET['size'] : 'kf' ;\r\n+$size = !empty($_GET['size']) ? $_GET['size'] : 'large' ;\r\n if(!in_array($size, $size_arr)){\r\n \t$size = 'large';\r\n }\r\n-$url = ''.$sina_img.'';\r\n+$url = ''.$sina_img.'.jpg';\r\n //解析结果\r\n $result=array(\"code\"=>\"200\",\"acgurl\"=>\"$url\");\r\n //Type Choose参数代码\r\n $type=$_GET['return'];\r\n"
                 }
             ],
             "date": 1674145121343,

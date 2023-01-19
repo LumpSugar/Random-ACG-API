@@ -5,11 +5,11 @@ $k = rand(0,count($str));
 $sina_img = str_re($str[$k]);
 
 $size_arr = array('kf', 'mw1024', 'mw690', 'bmiddle', 'small', 'thumb180', 'thumbnail', 'square');
-$size = !empty($_GET['size']) ? $_GET['size'] : 'large' ;
+$size = !empty($_GET['size']) ? $_GET['size'] : 'kf' ;
 if(!in_array($size, $size_arr)){
 	$size = 'large';
 }
-$url = ''.$size.'/'.$sina_img.'.jpg';
+$url = ''.$sina_img.'';
 //解析结果
 $result=array("code"=>"200","acgurl"=>"$url");
 //Type Choose参数代码
