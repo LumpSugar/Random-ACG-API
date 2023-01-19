@@ -1,0 +1,18 @@
+{
+    "sourceFile": "pe.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1674145121343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1674145121343,
+            "name": "Commit-0",
+            "content": "<?php\r\n//读取文本\r\n$str = explode(\"\\n\", file_get_contents('pe.txt'));\r\n$k = rand(0,count($str));\r\n$sina_img = str_re($str[$k]);\r\n\r\n$size_arr = array('kf', 'mw1024', 'mw690', 'bmiddle', 'small', 'thumb180', 'thumbnail', 'square');\r\n$size = !empty($_GET['size']) ? $_GET['size'] : 'large' ;\r\nif(!in_array($size, $size_arr)){\r\n\t$size = 'large';\r\n}\r\n$url = ''.$size.'/'.$sina_img.'.jpg';\r\n//解析结果\r\n$result=array(\"code\"=>\"200\",\"acgurl\"=>\"$url\");\r\n//Type Choose参数代码\r\n$type=$_GET['return'];\r\nswitch ($type)\r\n{   \r\n   \r\n//格式解析                           \r\ncase 'json':\r\n$path = \"$url\";\r\n$pathinfo = pathinfo($path);\r\n$imageInfo = getimagesize($url);  \r\n$result['width']=\"$imageInfo[0]\";  \r\n$result['height']=\"$imageInfo[1]\";\r\n$result['size']=\"$pathinfo[extension]\";    \r\nheader('Content-type:text/json');\r\necho json_encode($result);\r\nbreak;\r\n//格式解析                             \r\ncase 'img':\r\n$img = file_get_contents($url,true);\r\n//使用图片头输出浏览器\r\nheader(\"Content-Type: image/jpeg;\");\r\necho $img;\r\nbreak;\r\n//IMG\r\ndefault:\r\nheader(\"Location:\".$result['acgurl']);\r\nbreak;\r\n}\r\nfunction str_re($str){\r\n  $str = str_replace(' ', \"\", $str);\r\n  $str = str_replace(\"\\n\", \"\", $str);\r\n  $str = str_replace(\"\\t\", \"\", $str);\r\n  $str = str_replace(\"\\r\", \"\", $str);\r\n  return $str;\r\n}\r\n?> "
+        }
+    ]
+}
