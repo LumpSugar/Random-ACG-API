@@ -28,12 +28,12 @@
 				<p>返回格式</p>
 				<pre>json/images</pre>
 				<p>博客</p>
-				<pre><a href="https://histion.github.io" target="_blank">https://histion.github.io</a></pre>
+				<pre><a href="https://blog.histion.cf" target="_blank">https://blog.histion.cf</a></pre>
 			</div>
 		</div>
 		<div class="bottom">
 
-                    <p>China © 2021 <a href="https://histion.github.io" target="_blank" class="one-pan-link-mark">博客</a></p>
+                    <p>China © 2021-2099 <a href="https://blog.histion.cf" target="_blank" class="one-pan-link-mark">博客</a></p>
 		</div>
 	</body>
 </html>

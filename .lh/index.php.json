@@ -1,0 +1,18 @@
+{
+    "sourceFile": "index.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1674144212785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1674144212785,
+            "name": "Commit-0",
+            "content": "\r\n<html>\r\n\t<head>\r\n\t\t<meta charset=\"utf-8\">\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">\r\n\t\t<title>随机二次元图片API - Nanami's 背景API接口站</title>\r\n\t\t<meta name=\"keywords\" content=\"Nanami's背景API接口站\">\r\n\t\t<meta name=\"description\" content=\"随机二次元图片API,随机动漫壁纸,每天刷一刷，每次不一样。\">\r\n\t\t<link rel=\"stylesheet\" href=\"https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css\" crossorigin=\"anonymous\">\r\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/main.css\">\r\n\t</head>\r\n\t<body>\r\n\t\t<div>\r\n\t\t\t<p algin=“center” class=\"title title2\">随机二次元图片API - Nanami's背景API接口站</p>\r\n\t\t</div>\r\n\t\t<div class=\"container\">\r\n\t\t\t<div class=\"well\">\r\n\t\t\t\t<p>目前PC端共收录 100+ 张图片 API最后更新时间:2022-12-10</p>\r\n\t\t\t\t<p>基本完成pc端背景个人xp化</p>\r\n\t\t\t\t<p>自判断二次元API基本调用格式：</p>\r\n\t\t\t\t<pre><a href=\"<?php $_SERVER['HTTP_HOST'] ?>/api.php\" target=\"_blank\"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/api.php</a></pre>\r\n\t\t\t\t<p>（横屏）PC端随机二次元API</p>\r\n\t\t\t\t<pre><a href=\"<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/pc.php\" target=\"_blank\"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/pc.php</a></pre>\r\n\t\t\t\t<p>（竖屏）手机端随机二次元API</p>\r\n\t\t\t\t<pre><a href=\"<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/pe.php\" target=\"_blank\"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/pe.php</a></pre>\r\n\t\t\t\t<p>请求方式</p>\r\n\t\t\t\t<pre>get/post</pre>\r\n\t\t\t\t<p>返回格式</p>\r\n\t\t\t\t<pre>json/images</pre>\r\n\t\t\t\t<p>博客</p>\r\n\t\t\t\t<pre><a href=\"https://blog.histion.cf\" target=\"_blank\">https://blog.histion.cf</a></pre>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div class=\"bottom\">\r\n\r\n                    <p>China © 2021-2099 <a href=\"https://blog.histion.cf\" target=\"_blank\" class=\"one-pan-link-mark\">博客</a></p>\r\n\t\t</div>\r\n\t</body>\r\n</html>\r\n"
+        }
+    ]
+}

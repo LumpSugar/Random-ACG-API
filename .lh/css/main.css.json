@@ -1,0 +1,18 @@
+{
+    "sourceFile": "css/main.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1674144273000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1674144273000,
+            "name": "Commit-0",
+            "content": "body{\r\n\tfont-family: 微软雅黑;\r\n\tbackground: url(https://lolisuki.cc/api/setu/v1?level=0-1);background-repeat:no-repeat;background-attachment:fixed;background-position: center center;background-size: cover;;\r\n}\r\n.bottom{\r\n\tposition: fixed;\r\n\theight: 30px;\r\n\twidth: 100%;\r\n\tbottom: 0px;\r\n\ttext-align: center;\r\n\tfont-size: 20px;\r\n\tcolor: #2196F3;\r\n\ttext-shadow: #000 1px 1px 1px;\r\n\tmargin-bottom: 10px;\r\n}\r\npre{\r\n\tcolor: #2196F3;\r\n\tfont-size: 18px;\r\n\tfont-family: 微软雅黑;\r\n\tbackground: rgba(255, 255, 255, 0.55);\r\n\tline-height: 30px;\r\n}\r\n.json_note{\r\n\tcolor: #004CFF;\r\n\tfont-weight:bold;\r\n}\r\n.json_key{ \r\n\tcolor: #92278f;\r\n\tfont-weight:bold;\r\n}\r\n.json_null{\r\n\tcolor: #f1592a;\r\n\tfont-weight:bold;\r\n}\r\n.json_string{ \r\n\tcolor: #3ab54a;\r\n\tfont-weight:bold;\r\n}\r\n.json_number{ \r\n\tcolor: #25aae2;\r\n\tfont-weight:bold;\r\n}\r\n.title{\r\n\ttext-shadow: rgb(0, 0, 0) 1px 1px 1px;font-size: 39px;color: #00CEFF;position: absolute;top: 3px;left: 61px;\r\n}\r\n.title2{\r\n\tfont-size:24px;color: #F100FF;position: absolute;top: 18px;left: 220px;\r\n} \r\n.container{\r\n\tposition: relative;top: 90px;margin: 0 auto;\r\n}\r\n.well{\r\n\tbackground: rgba(255, 255, 255, 0.58);text-shadow: #000 1px 1px 1px;color: #00F1FF;font-size: 20px;\r\n}\r\n.well a{\r\n\tcolor: #00F1FF;font-size: 20px;\r\n}\r\n"
+        }
+    ]
+}
